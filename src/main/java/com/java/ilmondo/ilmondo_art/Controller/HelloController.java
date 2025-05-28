@@ -17,4 +17,10 @@ public class HelloController {
         String message = "sample 💥";        
         return message;
     }
+
+    @GetMapping("/dev")
+    public String dev() {
+        String message = "dev 🤗";        
+        return message;
+    }
 }
