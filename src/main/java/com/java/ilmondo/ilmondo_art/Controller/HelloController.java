@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping("/sample")
     public String sample() {
-        String message = "sample 💥";        
+        String message = "main sample 💥";        
         return message;
     }
 }
