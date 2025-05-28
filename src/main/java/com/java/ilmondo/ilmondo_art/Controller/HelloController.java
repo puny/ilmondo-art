@@ -20,7 +20,7 @@ public class HelloController {
 
     @GetMapping("/dev")
     public String dev() {
-        String message = "dev 🤗";        
+        String message = "dev 🤗😎";
         return message;
     }
 }
