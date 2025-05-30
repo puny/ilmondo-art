@@ -17,4 +17,10 @@ public class HelloController {
         String message = "main sample 💥";        
         return message;
     }
+
+
+    private int calc() {
+        return 0;
+    }
+
 }
