@@ -9,7 +9,7 @@ public class HelloController {
     @GetMapping("/")
     public String hello() {
         String message = "Hello ilmondo ❤❤🧡💕💗💌";
-        int num = cals();
+        int num = calc();
         return message;
     }
 
